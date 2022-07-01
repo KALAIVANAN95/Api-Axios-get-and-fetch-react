@@ -1,38 +1,87 @@
-.App {
+body{
+  background-color: rgb(168, 131, 137);
+}
+.heading{
+  color:aqua;
+  text-align: center;
+  font-size: 2rem;
+  margin: 0 0 2em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+  /* background-color: rgb(255,255,255); */
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.box{
+  background-color: burlywood;
+  width: 28%;
+  margin: 10px;
+  padding: 20px;
+  box-shadow: 2px 2px 10px white;
+}
+.titles{
+  color: #fff;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.para{
+  color: palegreen;
+  font-size: 18px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.images{
+  width: 360px;
+  height: 275px;
+  object-fit: contain;
+}
+/* ======================== */
+
+.app{
+/* background-color: blue; */
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin-top: 70px;
+
+}
+.title-top{
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.product{
+  max-width: 500px;
+  /* background-color: burlywood; */
+  padding: 10px;
+}
+select{
+  font-size: 1.1rem;
+  padding: .5em;
+  margin: 0 40px;
+}
+.title-end{
+  color: green;
+  text-align: center;
+  margin: 0 0 20px;
+  font-size: 2.2rem;
+  border-bottom: 3px double green;
+}
+.images-random{
+  width: 350px;
+  height: 350px;
+  margin: 0 auto;
+  display: block;
+  object-fit: contain;
+  margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+span{
+  color: purple;
 }
